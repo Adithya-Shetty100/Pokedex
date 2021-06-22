@@ -12,7 +12,10 @@ function Pokecard(props){
     return(
         <div class="card">
             <p className="name">{props.name}</p> 
-            <img src={url} alt={props.name} className="imgURL" />
+            <div>
+                <img src={url} alt={props.name} className="imgURL" />
+            </div> 
+            
             <p className="type">Type: {props.type}</p>
             <p className="exp">EXP: {props.exp}</p>
         </div>

@@ -1,6 +1,4 @@
 import React from "react"
-
-//import Pokedex from "./Pokedex"
 import Pokegame from "./Pokegame";
 import './App.css';
 

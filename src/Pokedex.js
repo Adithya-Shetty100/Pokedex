@@ -1,16 +1,20 @@
-//import react from "react"
-import pokemon from "./list"
 import Pokecard from "./Pokecard";
 
 
-function Pokedex(){
+function Pokedex(props){
+
+    let result=props.isWinner?"Winning Hand":"Losing Hand";
 
     return(
         <div className="poke-header">
-            <h1 className="heading">POKEDEX !!</h1>
+            <div className="result">
+                <h3 className={result}> {result}</h3>
+                <p>TOTAL EXP: {props.total}</p>
+            </div>
+
             <div className="pokedex">               
                 {
-                    pokemon.map((res)=>{
+                    props.pokemon.map((res)=>{
                         return(
                             <Pokecard
                                 name={res.name}
