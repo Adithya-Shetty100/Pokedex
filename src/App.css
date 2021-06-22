@@ -44,20 +44,30 @@
   max-width: 200px;
   background-color: cadetblue;
   padding: 10px;
-  margin:25px;
+  margin:5px;
+  margin-bottom: 40px;
+  box-shadow: 7px 10px 12px -5px rgba(0,0,0,0.56);
 }
 
 .heading{
   text-align: center;
   font-weight:bolder;
   margin-bottom: 35px;
+  margin-top: 15px;
 
 }
 
 .name{
-  color: blue;
+  color: rgb(184, 33, 6);
+  font-family:cursive;
+  font-style: italic;
+  font-weight: bolder;
+  font-size: large;
 }
 
-.sheet{
-  padding: 20px 50px;
+.pokedex{
+  padding: 0 15px 20px 15px;
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap; 
 }
