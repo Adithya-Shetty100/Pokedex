@@ -5,6 +5,16 @@ function Pokedex(props){
 
     let result=props.isWinner?"Winning Hand":"Losing Hand";
 
+    /*let title;
+		if (this.props.isWinner) {
+			title = <h1 className="Pokedex-winner">Winning Hand</h1>;
+		} else {
+			title = <h1 className="Pokedex-loser">Losing Hand</h1>;
+		}
+    
+    Another method: now insert {title} after div.poke-header
+    */
+
     return(
         <div className="poke-header">
             <div className="result">
